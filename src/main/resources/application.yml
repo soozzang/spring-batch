@@ -1,0 +1,14 @@
+spring.application.name: batch
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/bitcoin
+    redis:
+      host: localhost
+      port: 6379
+
+logging:
+  level:
+    root: info
+    com.example: debug
