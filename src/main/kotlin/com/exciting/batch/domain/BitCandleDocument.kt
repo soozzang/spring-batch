@@ -3,7 +3,7 @@ package com.exciting.batch.domain;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document("bitcoin_candles")
+@Document("bit_candles")
 data class BitCandleDocument(
     @Id val id: String? = null,
     val market: String,
